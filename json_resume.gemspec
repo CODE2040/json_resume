@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'pdfkit'
   spec.add_dependency 'rest-client'
   spec.add_dependency 'thor'
-  spec.add_dependency 'wkhtmltopdf-binary'
+  spec.requirements << 'Make sure your platform has wkhtmltopdf installed'
 end
